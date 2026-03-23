@@ -4,11 +4,11 @@ public class Ksiazka {
     private int liczbaStron;
     boolean dostepna;
 
-    public Ksiazka (String tytul, String autor, int liczbaStron, boolean dostepna) {
+    public Ksiazka(String tytul, String autor, int liczbaStron, boolean dostepna) {
         this.tytul = tytul;
         this.autor = autor;
-        this.liczbaStron =  liczbaStron;
-        this.dostepna =  dostepna;
+        this.liczbaStron = liczbaStron;
+        this.dostepna = dostepna;
 
     }
 
@@ -29,13 +29,17 @@ public class Ksiazka {
         }
     }
 
-    public void zwroc(){
+    public void zwroc() {
         if (!this.dostepna) {
             this.dostepna = true;
             System.out.println("Zwrocono ksiażke: " + this.tytul);
         } else {
-            System.out.println ("Ksiazka " + this.tytul + " jest dostępna");
+            System.out.println("Ksiazka " + this.tytul + " jest dostępna");
         }
+    }
+
+    public boolean dostepna() {
+        return false;
     }
 }
 

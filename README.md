@@ -1,2 +1,4 @@
 PGO 2 - Pierwsze podstawy programowania obiektowego
-Cool biblioteka!
+Projekt o mini bibliotece skończony!
+
+Nr. s35716
